@@ -59,13 +59,13 @@ If you're interested to integrate a chatbot into your daily routine or your busi
 # When
 
 #### Monday, 15/02. at 11h00 
-* Discussion on **First Draft** 
+Discussion on **First Draft** 
 * figma design & list of messages of our chatbot (@Yuliya-beCode)
 * html structure (@adriana-lazurca)
 * js structure (@frances-joffany-navarro)
 
 #### Monday, 15/02. at 15h00 
-* Discusion of **Second Draft**
+Discusion of **Second Draft**
 * Disscussion as regards the implementation & resolving the problem issues 
 * js structure as regards the functionality 
 * html structure checking of responsive design, functionality & compatibility with js
@@ -85,10 +85,10 @@ If you're interested to integrate a chatbot into your daily routine or your busi
 
 # Who
 
-- Our Project Team consists of
+Our Project Team consists of
 
-* Front Developer - Adriana Lazurca
-* Backend Developer - Frances Joffany Navarro 
-* Project Manager - Yuliya Bochkovskaya
+* Front Developer - Adriana Lazurca (@adriana-lazurca)
+* Backend Developer - Frances Joffany Navarro (@frances-joffany-navarrofrances)
+* Project Manager - Yuliya Bochkovskaya (@Yuliya-beCode)
 
-* If you have any questions in regards to our project, please do not hesitate to contact us directly on GitHub
+If you have any questions in regards to our project, please do not hesitate to contact us directly on GitHub
