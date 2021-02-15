@@ -1,14 +1,13 @@
 # Javascript
 
+### Welcome to the webpage of our chatbot!
+
 [Link to the chatbot](https://yuliya-becode.github.io/Javascript/)
 
-![firstDraft](pictures/1stDraft.png)
 
 # What
     
-    Welcome to the webpage of our chatbot!
-
-      
+     
  ## Our chatbot is very intelligent and can talk to you in the following structure:
 
 1. On loading of the page, the bot welcomes the user with a random greeting message (our bot has at least three different welcoming messages).
@@ -28,7 +27,7 @@
 
 # Why 
 
-A chatbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent. A chatbot is a type of software that can automate conversations and interact with people through messaging platforms.
+A chatbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent. A chatbot is a type of software that can automate conversations and interact with people through messaging platforms. 
 
 If you're interested to integrate a chatbot into your daily routine or your business life please check here below some advantages and disadvantages of Chatbots.
 
@@ -56,20 +55,11 @@ If you're interested to integrate a chatbot into your daily routine or your busi
 
 *Chatbots have a number of advantages and disadvantages. However, with the introduction of new technologies and software solutions such as ours, the advantages clearly outweigh the disadvantages.*
 
-# When
+# When  
 
-#### Monday, 15/02. at 11h00 
-Discussion on **First Draft** 
-* figma design & list of messages of our chatbot (@Yuliya-beCode)
-* html structure (@adriana-lazurca)
-* js structure (@frances-joffany-navarro)
+The first self-learning bot was created by Microsoft, which tweeted the self-learning chat Tay in 2016.
 
-#### Monday, 15/02. at 15h00 
-Discusion of **Second Draft**
-* Disscussion as regards the implementation & resolving the problem issues 
-* js structure as regards the functionality 
-* html structure checking of responsive design, functionality & compatibility with js
-
+Today chatbots are often used in business to advise and provide information to clients. For these purposes, chatbots are most often used in social networks or applications.
 
 
 #### Deadline: 17/02/21 at 17h00
