@@ -25,6 +25,8 @@
          ulist = document.createElement("ul");
          //id = messages
          ulist.setAttribute("id","messages");
+         //class
+         ulist.setAttribute("class", "list-group list-group-flush");
          //append in ul in chatBox id
          chat = document.getElementById("chatBox");
          chat.appendChild(ulist);
@@ -56,6 +58,7 @@
      //create list function
      function createList(message){
          list = document.createElement("li");
+         list.setAttribute("class", "list-group-item")
          document.getElementById("messages").appendChild(list);
          list.append(message);
      }
