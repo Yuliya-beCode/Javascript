@@ -22,7 +22,7 @@
         if the script cannot find a "yes" or a "no" in the message after three attempts, our bot begins to be mad and use "passive-agressive" answers, like "dude, are you sure you can read?" 
 
 
-4. After this answer, our bot will finish his routine. He says "bye" to the user and the textarea go to disabled mode.Advantages of Chatbots
+4. After this answer, our bot will finish his routine. He says "bye" to the user and the textarea goes to disabled mode.
 
 
 # Why 
