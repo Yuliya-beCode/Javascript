@@ -8,21 +8,6 @@
 # What
     
      
- ## Our chatbot is very intelligent and can talk to you in the following structure:
-
-1. On loading of the page, the bot welcomes the user with a random greeting message (our bot has at least three different welcoming messages).
-    
-2. Then, our chatbot asks the user "how do you feel today?".
-
-3. The user can reply freely, and the bot will check in the response if he can find a "yes" or a "no": 
-
-        if the script find a "yes" in the message, the bot answers with a random sentence from a specific set (minimum three different)
-        if the script find a "no" in the message, the bot answers with a random sentence from a specific set (minimum three different)
-        if the script cannot find a "yes" or a "no" in the message, the bot answer something like "I didn't understand, can you please try again"
-        if the script cannot find a "yes" or a "no" in the message after three attempts, our bot begins to be mad and use "passive-agressive" answers, like "dude, are you sure you can read?" 
-
-
-4. After this answer, our bot will finish his routine. He says "bye" to the user and the textarea goes to disabled mode.
 
 
 # Why 
@@ -62,15 +47,28 @@ The first self-learning bot was created by Microsoft, which tweeted the self-lea
 Today chatbots are often used in business to advise and provide information to clients. For these purposes, chatbots are most often used in social networks or applications.
 
 
-#### Deadline: 17/02/21 at 17h00
-
 
 # How
 
 
-1. first, we needed an UI, which was just a list of messages (there's two types of messages - those from the bots and those from the user) and a text area with a send button.
+ ## Our chatbot is very intelligent and can talk to you in the following structure:
 
-2. Sending a message to the bot has been done by clicking the send button or typing ENTER.
+1. On loading of the page, the bot welcomes the user with a random greeting message (our bot has at least three different welcoming messages).
+    
+2. Then, our chatbot asks the user "how do you feel today?".
+
+3. The user can reply freely, and the bot will check in the response if he can find a "yes" or a "no": 
+
+        if the script find a "yes" in the message, the bot answers with a random sentence from a specific set (minimum three different)
+        if the script find a "no" in the message, the bot answers with a random sentence from a specific set (minimum three different)
+        if the script cannot find a "yes" or a "no" in the message, the bot answer something like "I didn't understand, can you please try again"
+        if the script cannot find a "yes" or a "no" in the message after three attempts, our bot begins to be mad and use "passive-agressive" answers, like "dude, are you sure you can read?" 
+
+
+4. After this answer, our bot will finish his routine. He says "bye" to the user and the textarea goes to disabled mode.
+
+
+Sending a message to the bot has been done by clicking the send button or typing ENTER.
 
 
 # Who
