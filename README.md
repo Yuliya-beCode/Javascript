@@ -68,7 +68,7 @@ Today chatbots are often used in business to advise and provide information to c
 4. After this answer, our bot will finish his routine. He says "bye" to the user and the textarea goes to disabled mode.
 
 
-Sending a message to the bot has been done by clicking the send button or typing ENTER.
+Sending a message to the bot has been done by clicking the send button.
 
 
 # Who
