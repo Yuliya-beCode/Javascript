@@ -6,8 +6,10 @@
 
 
 # What
-    
-     
+
+Please see here below the UX Prototyp of our bot. This UX Prototyp has been created in Figma.
+
+![UX Prototype](pictures/UX_Figma.png)
 
 
 # Why 
