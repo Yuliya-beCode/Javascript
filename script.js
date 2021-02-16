@@ -1,5 +1,5 @@
 (() => {
-    var bot, user, input, output, randomGreet, ulist, chat, list, lenArr, 
+    var bot, user, input, randomGreet, ulist, chat, list, lenArr, nextLine, msgList,arr,p
         count = 0,
         imageSrc = document.getElementById("smurfImage"),
         greetings = ["Hello my Friend!", "Hi darling!", "Hey you!", "Hello there!", "Hello dear friend!"],
@@ -19,6 +19,10 @@
 
         set message(msg) {
             this._message = msg;
+        }
+
+        get sender(){
+            return this.sender;
         }
     }
 
@@ -42,7 +46,11 @@
     //eventlistener for clicking button
     document.getElementById("send").addEventListener("click", sendMessage);
     document.getElementById("inputMessage").addEventListener("keypress", function(event){
-        if(event.key === "Enter"){
+        if(event.key === "Enter" && event.shiftKey){
+            input = document.getElementById("inputMessage").value;
+            nextLine ="\n";
+            input += nextLine;
+        }else if(event.key === "Enter"){
             sendMessage();
         }
     });
@@ -55,20 +63,33 @@
 
     //create list function
     function createList(message) {
+        //set attribute
         list = document.createElement("li");
         list.setAttribute("class", "list-group-item")
-        document.getElementById("messages").appendChild(list);
-        list.append(message);
+        msgList = document.getElementById("messages");
+        msgList.appendChild(list);
+        
+        if(message.search("\n") >= 0){
+            arr = message.split("\n");
+            arr.forEach(addParagraph);
+        }else{
+            list.append(message);
+        }
+    }
+
+    function addParagraph(value){
+        p = document.createElement("p");
+        msgList.lastElementChild.appendChild(p);
+        p.append(value);
     }
 
     function sendMessage(){
         //get value of user input
         input = document.getElementById("inputMessage").value;
         user = new Chat("User", input);
-        output = createList(user.message);
-
-        //check answer
+        createList(user.message);
         createList(checkAnswer(input));
+        //clear the text after sending
         document.getElementById("inputMessage").value = "";
     }
 
@@ -76,7 +97,6 @@
     function checkAnswer(message) {
         var result,
             answer = message.toLowerCase();
-        //console.log(answer);
         if (answer.search("yes") >= 0) {
             count = 0;
             result = pickRandomMessage(yesAnswers);
