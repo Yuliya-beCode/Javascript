@@ -1,5 +1,5 @@
 (() => {
-    var bot, user, input, randomGreet, ulist, chat, list, lenArr, nextLine, msgList
+    var bot, user, input, randomGreet, ulist, chat, list, lenArr, nextLine, msgList,arr,p
         count = 0,
         imageSrc = document.getElementById("smurfImage"),
         greetings = ["Hello my Friend!", "Hi darling!", "Hey you!", "Hello there!", "Hello dear friend!"],
@@ -70,8 +70,7 @@
         msgList.appendChild(list);
         
         if(message.search("\n") >= 0){
-            //console.log(message);
-            var arr = message.split("\n");
+            arr = message.split("\n");
             arr.forEach(addParagraph);
         }else{
             list.append(message);
@@ -79,7 +78,7 @@
     }
 
     function addParagraph(value){
-        var p = document.createElement("p");
+        p = document.createElement("p");
         msgList.lastElementChild.appendChild(p);
         p.append(value);
     }
@@ -98,7 +97,6 @@
     function checkAnswer(message) {
         var result,
             answer = message.toLowerCase();
-        //console.log(answer);
         if (answer.search("yes") >= 0) {
             count = 0;
             result = pickRandomMessage(yesAnswers);
