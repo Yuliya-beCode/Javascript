@@ -13,78 +13,73 @@
 
 <body>
     <!-- Header -->
-    <section class="container">
+    <section class="container blue-bg">
         <section class="row">
-            <header class="border col">
-                <a class="btn btn-primary" href="#" role="button">Contact us</a>
-            </header>
+            <nav class="border col-4 offset-4 text-center">
+                <a class="btn btn-outline-primary mt-2 mb-2 bg-white" href="https://github.com/Yuliya-beCode/Javascript" role="button">Contact us</a>
+            </nav>
         </section>
     </section>
 
     <!-- Instructions-->
     <section class="container">
         <section class="row">
-            <div class="border col">
-                <p>Welcome to the smurfs' chatbot!</p>
+            <header class="border col text-center mt-3">
+                <h5>Welcome to the smurfs' chatbot!</h5>
                 <p>It's easy: just write me a message and I will answer you!</p>
-            </div>
+            </header>
         </section>
 
         <!-- Image Smurf and Text-->
-        <section class="row">
-            <div class="border col-8 offset-2 col-sm-5 offset-sm-1">
-                <img class="img-fluid " src="./pictures/pic1.png" alt="smurf1">
-            </div>
+        <main class="row">
+            <figure class="border col-10 offset-1 col-sm-5 offset-sm-0 text-center">
+                <img class="img-fluid" src="./pictures/pic1.png" alt="smurf1">
+            </figure>
 
-            <div id="chatBox" class="card border col-8 offset-2 col-sm-4 offset-sm-1" style="width: 18rem;">
-                <ul class="list-group list-group-flush">
-                    <!-- <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li> -->
-                </ul>
-            </div>
+            <section id="chatBox" class="card border col-10 offset-1 col-sm-6 offset-sm-0" style="width: 18rem;">
+            </section>
             
 
-        </section>
-        <section class="row">
-            <section class="border col-8 offset-2 col-sm-4 offset-sm-7" >
+        </main>
+        <main class="row">
+            <section class="border col-10 offset-1 col-sm-6 offset-sm-5" >
                 <textarea name="inputMessage" id="inputMessage"></textarea>
             </section>
-            <div class="border col-8 offset-2 col-sm-4 offset-sm-7">
-                <a id="send" class="btn btn-primary btn-block" href="#" role="button">Send</a>
-            </div>
-        </section>
+            <section class="border col-10 offset-1 col-sm-6 offset-sm-5">
+                <a id="send" class="btn btn-primary btn-block"  role="button">Send</a>
+            </section>
+        </main>
 
 
     </section>
 
     <!-- Footer -->
-    <footer class="container">
+    <footer class="container blue-bg text-white mt-4">
         <!-- Yuliya -->
-        <section class="row">
-            <section class="border col-6 col-sm-2">
+        <section class="row text-center">
+            <figure class="border col-6 col-sm-2">
                 <img class="img-members" src="./pictures/yuliya.jpeg" alt="yulyia">
-            </section>
+            </figure>
             <section class="border col-6 col-sm-2">
-                <p>Project Manager - Yuliya Bochkovskaya</p>
+                <a href="https://github.com/Yuliya-beCode" target="_blank"><p>Project Manager - Yuliya Bochkovskaya</p></a>
             </section>
 
             <!-- Adriana -->
 
-            <section class="border col-6 col-sm-2">
+            <figure class="border col-6 col-sm-2">
                 <img class="img-members" src="./pictures/adriana.jpeg" alt="adriana">
-            </section>
+            </figure>
             <section class="border col-6 col-sm-2">
-                <p>Front-End Developer - Adriana Lazurca</p>
+                <a href="https://github.com/adriana-lazurca" target="_blank"><p>Front-End Developer - Adriana Lazurca</p></a>
             </section>
 
             <!-- Frances -->
 
-            <section class="border col-6 col-sm-2">
+            <figure class="border col-6 col-sm-2">
                 <img class="img-members" src="./pictures/frances.jpeg" alt="frances">
-            </section>
+            </figure>
             <section class="border col-6 col-sm-2">
-                <p>Back-End Developer - Frances Joffany Navarro</p>
+                <a href="https://github.com/frances-joffany-navarro" target="_blank"><p>Back-End Developer - Frances Joffany Navarro</p></a>
             </section>
         </section>
     </footer>

@@ -1,11 +1,14 @@
+body {
+  color: #2228c5;
+}
 .container {
   border: 1px solid black;
-  background-color: rgb(179, 221, 221);
+  /* background-color: rgb(179, 221, 221); */
 }
 
 .border {
   border: 1px solid rgb(194, 63, 63);
-  background-color: rgb(174, 195, 226);
+  /* background-color: rgb(174, 195, 226); */
 }
 
 /* .img-smurf {
@@ -20,11 +23,23 @@
 } */
 
 .img-fluid {
-  max-height: 65vh;
+  max-height: 50vh;
 }
 
-.img-members{
-    max-height: 20vh;
-    
-    
+.img-members {
+  max-height: 20vh;
+  max-width: 100%;
+}
+.blue-bg {
+  background-color: #1f1bd3;
+}
+
+#messages {
+  max-height: 49vh;
+  overflow-y: auto;
+}
+
+textarea{
+  width: 100%;
+  
 }
