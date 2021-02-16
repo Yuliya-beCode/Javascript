@@ -16,17 +16,10 @@
 <body>
     <!-- Header -->
     <header class="container blue-bg">
-        <nav class="row">
-            <p class="col-3 offset-0">
-                <a href="#footer">
-                    <i class="fa fa-users">Collaborators</i></a>
-            </p>
-            <p class="col-3 offset-1">
-                <!-- <a class="btn btn-outline-primary mt-2 mb-2 bg-white" href="https://github.com/Yuliya-beCode/Javascript"
-                    role="button">Contact us</a> -->
-                <a href="https://github.com/Yuliya-beCode/Javascript" target="_blank">
-                    <i class="fa fa-github">Repository</i></a>
-            </p>
+        <nav class="row nav">
+            <a class="nav-link" href="#footer"><i class="fa fa-users"><span class="pl-2">Collaborators</span></i></a>
+            <a class="nav-link" href="https://github.com/Yuliya-beCode/Javascript"><i
+                    class="fa fa-github"><span class="pl-2">Repository</span></i></a>
         </nav>
     </header>
 
@@ -40,23 +33,25 @@
         </section>
 
         <!-- Image Smurf and Text-->
-        <section class="row">
-            <figure class="col-10 offset-1 col-sm-5 offset-sm-0 text-center" style="margin: 0;">
-                <img class="img-fluid" id="smurfImage" src="https://assets.stickpng.com/thumbs/5a7b6d93abc3d121aba710a0.png" alt="smurf1">
+        <main class="row">
+            <figure class="col-10 offset-1 col-sm-5 offset-sm-0 text-center mt-2" style="margin: 0;">
+                <img class="img-fluid" id="smurfImage"
+                    src="https://assets.stickpng.com/thumbs/5a7b6d93abc3d121aba710a0.png" alt="smurf1">
             </figure>
 
-            <section id="chatBox" class="card col-10 offset-1 col-sm-6 offset-sm-0" style="width: 18rem;">
-            </section>
-        </section>
+            <div id="chatBox" class="card col-10 offset-1 col-sm-6 offset-sm-0 mt-2" style="width: 18rem;">
+            </div>
+        </main>
 
-        <section class="row">
-            <section class="col-10 offset-1 col-sm-6 offset-sm-5">
-                <textarea name="inputMessage" id="inputMessage"></textarea>
-            </section>
-            <section class="col-10 offset-1 col-sm-6 offset-sm-5">
+        <main class="row">
+            <div class="col-10 offset-1 col-sm-6 offset-sm-5">
+                <label for="inputMessage"></label>
+                <textarea name="inputMessage" id="inputMessage" placeholder="Write a message"></textarea>
+            </div>
+            <div class="col-10 offset-1 col-sm-6 offset-sm-5">
                 <a id="send" class="btn btn-primary btn-block text-white" role="button">Send</a>
-            </section>
-        </section>
+            </div>
+        </main>
     </main>
 
 
@@ -64,36 +59,42 @@
     <footer id="footer" class="container blue-bg text-white mt-4">
         <!-- Yuliya -->
         <aside class="row text-center">
-            <figure class="col-6 col-md-2">
-                <img class="img-members" src="https://avatars.githubusercontent.com/u/77075781?s=460&u=c2568ed6d1a0594dae3f1a8d125395b20bbd203d&v=4" alt="yulyia">
+            <figure class="col-6 col-md-2 mt-3">
+                <img class="img-members rounded"
+                    src="https://avatars.githubusercontent.com/u/77075781?s=460&u=c2568ed6d1a0594dae3f1a8d125395b20bbd203d&v=4"
+                    alt="yulyia">
             </figure>
-            <section class="col-6 col-md-2">
+            <section class="col-6 col-md-2 mt-3">
                 <h6>Project Manager - Yuliya Bochkovskaya</h6>
-                <a href="https://github.com/Yuliya-beCode" target="_blank">
+                <a href="https://github.com/Yuliya-beCode">
                     <i class="fa fa-github">/Yuliya-beCode</i>
                 </a>
             </section>
 
             <!-- Adriana -->
 
-            <figure class="col-6 col-md-2">
-                <img class="img-members" src="https://avatars.githubusercontent.com/u/73725361?s=460&u=8df0d19fd60e632b716d1450574fd606e0b533c5&v=4" alt="adriana">
+            <figure class="col-6 col-md-2 mt-3">
+                <img class="img-members rounded"
+                    src="https://avatars.githubusercontent.com/u/73725361?s=460&u=8df0d19fd60e632b716d1450574fd606e0b533c5&v=4"
+                    alt="adriana">
             </figure>
-            <section class="col-6 col-md-2">
+            <section class="col-6 col-md-2 mt-3">
                 <h6>Front-End Developer - Adriana Lazurca</h6>
-                <a href="https://github.com/adriana-lazurca" target="_blank">
+                <a href="https://github.com/adriana-lazurca">
                     <i class="fa fa-github">/adriana-lazurca</i>
                 </a>
             </section>
 
             <!-- Frances -->
 
-            <figure class="col-6 col-md-2">
-                <img class="img-members" src="https://avatars.githubusercontent.com/u/77080353?s=460&u=305f83234db742e1bb228924c9d80250787619b4&v=4" alt="frances">
+            <figure class="col-6 col-md-2 mt-3">
+                <img class="img-members rounded"
+                    src="https://avatars.githubusercontent.com/u/77080353?s=460&u=305f83234db742e1bb228924c9d80250787619b4&v=4"
+                    alt="frances">
             </figure>
-            <section class="col-6 col-md-2">
+            <section class="col-6 col-md-2 mt-3">
                 <h6>Back-End Developer - Frances Joffany Navarro</h6>
-                <a href="https://github.com/frances-joffany-navarro" target="_blank">
+                <a href="https://github.com/frances-joffany-navarro">
                     <i class="fa fa-github">/frances-joffany-navarro</i>
                 </a>
             </section>

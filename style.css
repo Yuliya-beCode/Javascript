@@ -1,15 +1,6 @@
 body {
   color: #151aa0;
 }
-.container {
-  /* border: 1px solid black; */
-  /* background-color: rgb(179, 221, 221); */
-}
-
-.border {
-  /* border: 1px solid rgb(194, 63, 63); */
-  /* background-color: rgb(174, 195, 226); */
-}
 
 .img-fluid {
   max-height: 50vh;
@@ -20,7 +11,7 @@ body {
   max-width: 100%;
 }
 .blue-bg {
-  background-color: #1d19b0;
+  background-color: #2376d4;
 }
 
 #messages {
@@ -32,19 +23,18 @@ textarea {
   width: 100%;
 }
 
-a:hover, i:hover {
-  color: rgb(53, 36, 212);
-  text-decoration: none;
-  
+i:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 a:visited,
 a:active,
 i:visited,
 i:active {
-  color:white;
+  color: white;
 }
 
 .btn-primary {
-  background-color: #1d19b0;
+  background-color: #2376d4;
 }
