@@ -39,7 +39,10 @@ body {
   overflow-y: auto;
 }
 
-textarea{
+textarea {
   width: 100%;
-  
+}
+
+figure {
+  margin: 0;
 }
