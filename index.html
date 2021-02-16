@@ -7,81 +7,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Chatbot</title>
 </head>
 
 <body>
     <!-- Header -->
-    <section class="container blue-bg">
-        <section class="row">
-            <nav class="border col-4 offset-4 text-center">
-                <a class="btn btn-outline-primary mt-2 mb-2 bg-white" href="https://github.com/Yuliya-beCode/Javascript" role="button">Contact us</a>
-            </nav>
-        </section>
-    </section>
+    <header class="container blue-bg">
+        <nav class="row">
+            <p class="col-3 offset-0">
+                <a href="#footer">
+                    <i class="fa fa-users">Collaborators</i></a>
+            </p>
+            <p class="col-3 offset-1">
+                <!-- <a class="btn btn-outline-primary mt-2 mb-2 bg-white" href="https://github.com/Yuliya-beCode/Javascript"
+                    role="button">Contact us</a> -->
+                <a href="https://github.com/Yuliya-beCode/Javascript" target="_blank">
+                    <i class="fa fa-github">Repository</i></a>
+            </p>
+        </nav>
+    </header>
 
     <!-- Instructions-->
-    <section class="container">
+    <main class="container">
         <section class="row">
-            <header class="border col text-center mt-3">
+            <section class="col text-center mt-3">
                 <h5>Welcome to the smurfs' chatbot!</h5>
                 <p>It's easy: just write me a message and I will answer you!</p>
-            </header>
+            </section>
         </section>
 
         <!-- Image Smurf and Text-->
-        <main class="row">
-            <figure class="border col-10 offset-1 col-sm-5 offset-sm-0 text-center" style="margin: 0;">
-                <img class="img-fluid" id = "smurfImage" src="./pictures/pic1.png" alt="smurf1">
+        <section class="row">
+            <figure class="col-10 offset-1 col-sm-5 offset-sm-0 text-center" style="margin: 0;">
+                <img class="img-fluid" id="smurfImage" src="https://assets.stickpng.com/thumbs/5a7b6d93abc3d121aba710a0.png" alt="smurf1">
             </figure>
 
-            <section id="chatBox" class="card border col-10 offset-1 col-sm-6 offset-sm-0" style="width: 18rem;">
+            <section id="chatBox" class="card col-10 offset-1 col-sm-6 offset-sm-0" style="width: 18rem;">
             </section>
-            
+        </section>
 
-        </main>
-        <main class="row">
-            <section class="border col-10 offset-1 col-sm-6 offset-sm-5" >
+        <section class="row">
+            <section class="col-10 offset-1 col-sm-6 offset-sm-5">
                 <textarea name="inputMessage" id="inputMessage"></textarea>
             </section>
-            <section class="border col-10 offset-1 col-sm-6 offset-sm-5">
-                <a id="send" class="btn btn-primary btn-block"  role="button">Send</a>
+            <section class="col-10 offset-1 col-sm-6 offset-sm-5">
+                <a id="send" class="btn btn-primary btn-block text-white" role="button">Send</a>
             </section>
-        </main>
+        </section>
+    </main>
 
-
-    </section>
 
     <!-- Footer -->
-    <footer class="container blue-bg text-white mt-4">
+    <footer id="footer" class="container blue-bg text-white mt-4">
         <!-- Yuliya -->
-        <section class="row text-center">
-            <figure class="border col-6 col-sm-2">
-                <img class="img-members" src="./pictures/yuliya.jpeg" alt="yulyia">
+        <aside class="row text-center">
+            <figure class="col-6 col-md-2">
+                <img class="img-members" src="https://avatars.githubusercontent.com/u/77075781?s=460&u=c2568ed6d1a0594dae3f1a8d125395b20bbd203d&v=4" alt="yulyia">
             </figure>
-            <section class="border col-6 col-sm-2">
-                <a href="https://github.com/Yuliya-beCode" target="_blank"><p>Project Manager - Yuliya Bochkovskaya</p></a>
+            <section class="col-6 col-md-2">
+                <h6>Project Manager - Yuliya Bochkovskaya</h6>
+                <a href="https://github.com/Yuliya-beCode" target="_blank">
+                    <i class="fa fa-github">/Yuliya-beCode</i>
+                </a>
             </section>
 
             <!-- Adriana -->
 
-            <figure class="border col-6 col-sm-2">
-                <img class="img-members" src="./pictures/adriana.jpeg" alt="adriana">
+            <figure class="col-6 col-md-2">
+                <img class="img-members" src="https://avatars.githubusercontent.com/u/73725361?s=460&u=8df0d19fd60e632b716d1450574fd606e0b533c5&v=4" alt="adriana">
             </figure>
-            <section class="border col-6 col-sm-2">
-                <a href="https://github.com/adriana-lazurca" target="_blank"><p>Front-End Developer - Adriana Lazurca</p></a>
+            <section class="col-6 col-md-2">
+                <h6>Front-End Developer - Adriana Lazurca</h6>
+                <a href="https://github.com/adriana-lazurca" target="_blank">
+                    <i class="fa fa-github">/adriana-lazurca</i>
+                </a>
             </section>
 
             <!-- Frances -->
 
-            <figure class="border col-6 col-sm-2">
-                <img class="img-members" src="./pictures/frances.jpeg" alt="frances">
+            <figure class="col-6 col-md-2">
+                <img class="img-members" src="https://avatars.githubusercontent.com/u/77080353?s=460&u=305f83234db742e1bb228924c9d80250787619b4&v=4" alt="frances">
             </figure>
-            <section class="border col-6 col-sm-2">
-                <a href="https://github.com/frances-joffany-navarro" target="_blank"><p>Back-End Developer - Frances Joffany Navarro</p></a>
+            <section class="col-6 col-md-2">
+                <h6>Back-End Developer - Frances Joffany Navarro</h6>
+                <a href="https://github.com/frances-joffany-navarro" target="_blank">
+                    <i class="fa fa-github">/frances-joffany-navarro</i>
+                </a>
             </section>
-        </section>
+        </aside>
     </footer>
 
 
