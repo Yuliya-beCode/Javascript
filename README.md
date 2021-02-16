@@ -68,15 +68,25 @@ Today chatbots are often used in business to advise and provide information to c
 
 According to the mood of our boot, a smurf image will be also changed 
 
-#### If the script find a "yes" in the message
+#### If the script finds a "yes" in the message
 
 ![UX](pictures/secondFigma.png)
 
+#### If the script finds a "no"
+
+![UX](pictures/thirdFigma.png)
+
+####  If the script cannot find a "yes" or a "no" in the message
+
+![UX](pictures/fourthFigma.png)
 
 4. After this answer, our bot will finish his routine. He says "bye" to the user and the textarea goes to disabled mode.
 
 
 Sending a message to the bot has been done by clicking the send button.
+
+Our bot also suppotrs multi-line messages: by typing SHIFT+ENTER, you can create a new line in the textarea. 
+
 
 
 # Who
