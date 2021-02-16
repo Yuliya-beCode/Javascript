@@ -85,6 +85,9 @@ According to the mood of our boot, a smurf image will be also changed
 
 Sending a message to the bot has been done by clicking the send button.
 
+Our bot also suppotrs multi-line messages: by typing SHIFT+ENTER, you can create a new line in the textarea. 
+
+
 
 # Who
 
