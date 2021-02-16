@@ -1,5 +1,5 @@
 body {
-  color: #0077c2;
+  color: #151aa0;
 }
 .container {
   /* border: 1px solid black; */
@@ -20,7 +20,7 @@ body {
   max-width: 100%;
 }
 .blue-bg {
-  background-color: #42a5f5;
+  background-color: #1d19b0;
 }
 
 #messages {
@@ -46,5 +46,5 @@ i:active {
 }
 
 .btn-primary {
-  background-color: #42a5f5;
+  background-color: #1d19b0;
 }
