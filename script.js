@@ -5,8 +5,7 @@
         greetings = ["Hello my Friend!", "Hi darling!", "Hey you!", "Hello there!", "Hello dear friend!"],
         yesAnswers = ["That's fine, because it means that you have a pretty good starting point for tomorrow.", "That's fine: we'll offer you plenty of tips, expertise, and advice, provide you with a hiking rucksack and of course make your time unforgettable.", "And that's fine: Passion for good mood is not something that can be forced on anyone.", "Super, we have great suggestions for you!", "Perfect, it means you would like to follow our tips. Great!"],
         noAnswers = ["But it was as if God said, No, you aren't going to do that.", "So, you are not my friend neither my best friend, you are more than…", "Why don’t you trust me… I could change your mood…", "If you are not sure if these categories apply to you or you have any questions, please don’t hesitate to contact us as we would be delighted to assist you!", "Should I stay with someone who really trust me hmm…"];
-        //botImages = ["https://assets.stickpng.com/thumbs/5a7b6d93abc3d121aba710a0.png","https://assets.stickpng.com/thumbs/5a7b6dd3abc3d121aba710a3.png","https://assets.stickpng.com/thumbs/58b83c9615d8273a5cab2f94.png","https://assets.stickpng.com/thumbs/58b83cfb15d8273a5cab2f99.png","https://assets.stickpng.com/thumbs/5a7b6d3aabc3d121aba71096.png"];
-
+        
     class Chat {
         constructor(sender, message) {
             this._sender = sender;
