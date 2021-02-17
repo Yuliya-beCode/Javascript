@@ -48,6 +48,8 @@ The first self-learning bot was created by Microsoft, which tweeted the self-lea
 
 Today chatbots are often used in business to advise and provide information to clients. For these purposes, chatbots are most often used in social networks or applications.
 
+Our project has been started on 15/02/2021 and completed on 17/02/2021.
+
 
 
 # How
@@ -55,16 +57,17 @@ Today chatbots are often used in business to advise and provide information to c
 
  ## Our chatbot is very intelligent and can talk to you in the following structure:
 
-1. On loading of the page, the bot welcomes the user with a random greeting message (our bot has at least three different welcoming messages).
+1. On loading of the page, the bot welcomes the user with a random greeting message (our bot has 5 different welcoming messages).
     
-2. Then, our chatbot asks the user "how do you feel today?".
+2. Then, our chatbot asks the user "How are you doing? Would you like to talk to me?".
 
 3. The user can reply freely, and the bot will check in the response if he can find a "yes" or a "no": 
 
-        if the script find a "yes" in the message, the bot answers with a random sentence from a specific set (minimum three different)
-        if the script find a "no" in the message, the bot answers with a random sentence from a specific set (minimum three different)
-        if the script cannot find a "yes" or a "no" in the message, the bot answer something like "I didn't understand, can you please try again"
-        if the script cannot find a "yes" or a "no" in the message after three attempts, our bot begins to be mad and use "passive-agressive" answers, like "dude, are you sure you can read?" 
+        if the script find a "yes" in the message, the bot answers with a random sentence from a specific set 
+        if the script find a "no" in the message, the bot answers with a random sentence from a specific set 
+        if the script cannot find a "yes" or a "no" in the message, the bot answers something like "I didn't understand, can you please try again"
+        if the script cannot find a "yes" or a "no" in the message after three attempts, our bot begins to be mad and use "passive-agressive" answer "Are you serious that you don't know how to read questions carefully. I do not want to talk to you anymore. You know where you can find me. Bye!" 
+        if our bot receives an empty message, he will answer in the following way "I receive an empty message. Please try again."
 
 According to the mood of our boot, a smurf image will be also changed 
 
@@ -76,9 +79,14 @@ According to the mood of our boot, a smurf image will be also changed
 
 ![UX](pictures/thirdFigma.png)
 
-####  If the script cannot find a "yes" or a "no" in the message
+####  If the bot cannot find a "yes" or a "no" in the message
 
 ![UX](pictures/fourthFigma.png)
+
+####  If the bot receives an empty message
+
+![UX](pictures/fifthFigma.png)
+
 
 4. After this answer, our bot will finish his routine. He says "bye" to the user and the textarea goes to disabled mode.
 
