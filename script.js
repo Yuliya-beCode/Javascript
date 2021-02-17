@@ -87,6 +87,8 @@
         createList(checkAnswer(input));
         //clear the text after sending
         document.getElementById("inputMessage").value = "";
+        // var objDiv = document.getElementById("messages");
+        // objDiv.scrollTop = objDiv.scrollHeight;
     }
 
     //check the answer of the user
