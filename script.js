@@ -51,6 +51,7 @@
             input += nextLine;
         }else if(event.key === "Enter"){
             sendMessage();
+            event.preventDefault();
         }
     });
 
@@ -110,7 +111,7 @@
             imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/58b83c9615d8273a5cab2f94.png");
             bot.message = noAnswers[result];
             return bot.message;
-        } else if(answer === ""){
+        } else if(answer.trim() === ""){
             count = 0;
             result = "I receive an empty message. Please try again."
             //set attribute for image
