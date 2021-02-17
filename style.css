@@ -22,8 +22,8 @@ textarea {
   width: 100%;
 }
 
-i:hover {
-  color: white;
+i:hover, a:hover {
+  color: white !important;
   text-decoration: underline;
 }
 
@@ -31,7 +31,7 @@ a:visited,
 a:active,
 i:visited,
 i:active {
-  color: white;
+  color: white !important;
 }
 
 .btn-primary {
