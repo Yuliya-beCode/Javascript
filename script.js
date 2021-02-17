@@ -65,7 +65,7 @@
     function createList(message) {
         //set attribute
         list = document.createElement("li");
-        list.setAttribute("class", "list-group-item")
+        list.setAttribute("class", "list-group-item");
         msgList = document.getElementById("messages");
         msgList.appendChild(list);
         
@@ -101,21 +101,21 @@
             count = 0;
             result = pickRandomMessage(yesAnswers);
             //set attribute for image
-            imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/5a7b6dd3abc3d121aba710a3.png");//"botImages[1]"
+            imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/5a7b6dd3abc3d121aba710a3.png");
             bot.message = yesAnswers[result];
             return bot.message;
         } else if (answer.search("no") >= 0) {
             count = 0;
             result = pickRandomMessage(noAnswers);
             //set attribute for image
-            imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/58b83c9615d8273a5cab2f94.png");//botImages[2]
+            imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/58b83c9615d8273a5cab2f94.png");
             bot.message = noAnswers[result];
             return bot.message;
         } else if(answer === ""){
             count = 0;
             result = "I receive an empty message. Please try again."
             //set attribute for image
-            imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/58b83cfb15d8273a5cab2f99.png");//botImages[3]
+            imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/58b83cfb15d8273a5cab2f99.png");
             bot.message = result;
             return bot.message;
         }else {
