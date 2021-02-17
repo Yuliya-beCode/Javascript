@@ -46,7 +46,6 @@
     //eventlistener for clicking button
     document.getElementById("send").addEventListener("click", sendMessage);
     document.getElementById("inputMessage").addEventListener("keypress", function(event){
-        console.log(event);
         if(event.key === "Enter" && event.shiftKey){
             input = document.getElementById("inputMessage").value;
             nextLine ="\n";
@@ -72,13 +71,13 @@
         
         if(message.search("\n") >= 0){
             arr = message.split("\n");
-            arr.forEach(addParagraph);
+            arr.forEach(createParagraph);
         }else{
             list.append(message);
         }
     }
 
-    function addParagraph(value){
+    function createParagraph(value){
         p = document.createElement("p");
         msgList.lastElementChild.appendChild(p);
         p.append(value);
@@ -112,7 +111,8 @@
             imageSrc.setAttribute("src", botImages[2]);
             bot.message = noAnswers[result];
             return bot.message;
-        } else if(answer == ""){
+        } else if(answer === ""){
+            count = 0;
             result = "I receive an empty message. Please try again."
             //set attribute for image
             imageSrc.setAttribute("src", botImages[3]);
@@ -122,7 +122,7 @@
             count++;
             //if tried 3 times  
             if (count > 3) {
-                result = "Are you serious that you don't know how to read questions carefully. I do not want to talk to you anymore. You know where you can find me…"
+                result = "Are you serious that you don't know how to read questions carefully. I do not want to talk to you anymore. You know where you can find me. Bye!"
                 //disable the textarea
                 document.getElementById("inputMessage").disabled = true;
                 //remove event listener
