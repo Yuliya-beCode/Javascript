@@ -15,6 +15,7 @@ body {
 }
 
 #messages {
+  max-height: 49vh;
   overflow-y: auto;
 }
 
@@ -22,19 +23,20 @@ textarea {
   width: 100%;
 }
 
-i:hover, a:hover {
+i:hover,
+a:hover {
   color: white !important;
   text-decoration: underline;
 }
 
-/* a:visited, */
 a:active,
-/* i:visited, */
 i:active {
   color: white !important;
 }
 
-a{color:white !important}
+a {
+  color: white !important;
+}
 
 .btn-primary {
   background-color: #2376d4;
