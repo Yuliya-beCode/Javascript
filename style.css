@@ -3,7 +3,7 @@ body {
 }
 
 .img-fluid {
-  max-height: 50vh;
+  max-height: 49vh;
 }
 
 .img-members {
@@ -15,7 +15,7 @@ body {
 }
 
 #messages {
-  max-height: 49vh;
+  height: 49vh;
   overflow-y: auto;
 }
 
