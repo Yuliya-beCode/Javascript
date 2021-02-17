@@ -98,3 +98,9 @@ Our Project Team consists of
 * Project Manager - Yuliya Bochkovskaya (@Yuliya-beCode)
 
 If you have any questions in regards to our project, please do not hesitate to contact us directly on GitHub
+
+Please find here below the Lighthouse Performance Score and notification of W3 Html Checker of our website
+
+![Lighthouse](pictures/Lighthouse_score.png)
+
+![W3Checker](pictures/W3Checker.png)
