@@ -69,7 +69,7 @@ Our project has been started on 15/02/2021 and completed on 17/02/2021.
         if the script cannot find a "yes" or a "no" in the message after three attempts, our bot begins to be mad and use "passive-agressive" answer "Are you serious that you don't know how to read questions carefully. I do not want to talk to you anymore. You know where you can find me. Bye!" 
         if our bot receives an empty message, he will answer in the following way "I receive an empty message. Please try again."
 
-According to the mood of our boot, a smurf image will be also changed 
+According to the mood of our bot, a smurf image will be also changed 
 
 #### If the script finds a "yes" in the message
 
@@ -91,7 +91,7 @@ According to the mood of our boot, a smurf image will be also changed
 4. After this answer, our bot will finish his routine. He says "bye" to the user and the textarea goes to disabled mode.
 
 
-Sending a message to the bot has been done by clicking the send button.
+Sending a message to the bot has been done by clicking the send button and also by pressing ENTER.
 
 Our bot also suppotrs multi-line messages: by typing SHIFT+ENTER, you can create a new line in the textarea. 
 
@@ -101,8 +101,8 @@ Our bot also suppotrs multi-line messages: by typing SHIFT+ENTER, you can create
 
 Our Project Team consists of
 
-* Front Developer - Adriana Lazurca (@adriana-lazurca)
-* Backend Developer - Frances Joffany Navarro (@frances-joffany-navarrofrances)
+* Frontend Developer - Adriana Lazurca (@adriana-lazurca)
+* Backend Developer - Frances Joffany Navarro (@frances-joffany-navarro)
 * Project Manager - Yuliya Bochkovskaya (@Yuliya-beCode)
 
 If you have any questions in regards to our project, please do not hesitate to contact us directly on GitHub
