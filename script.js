@@ -19,10 +19,6 @@
         set message(msg) {
             this._message = msg;
         }
-
-        get sender(){
-            return this.sender;
-        }
     }
 
     //create unordered list
@@ -101,21 +97,21 @@
             count = 0;
             result = pickRandomMessage(yesAnswers);
             //set attribute for image
-            imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/5a7b6dd3abc3d121aba710a3.png");
+            imageSrc.setAttribute("src", "pictures/smurf2.png");
             bot.message = yesAnswers[result];
             return bot.message;
         } else if (answer.search("no") >= 0) {
             count = 0;
             result = pickRandomMessage(noAnswers);
             //set attribute for image
-            imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/58b83c9615d8273a5cab2f94.png");
+            imageSrc.setAttribute("src", "pictures/smurf3.png");
             bot.message = noAnswers[result];
             return bot.message;
         } else if(answer.trim() === ""){
             count = 0;
             result = "I receive an empty message. Please try again."
             //set attribute for image
-            imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/58b83cfb15d8273a5cab2f99.png");
+            imageSrc.setAttribute("src", "pictures/smurf4.png");
             bot.message = result;
             return bot.message;
         }else {
@@ -128,13 +124,13 @@
                 //remove event listener
                 document.getElementById("send").removeEventListener("click", sendMessage);
                 //set attribute for image
-                imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/5a7b6d3aabc3d121aba71096.png");//botImages[4]
+                imageSrc.setAttribute("src", "pictures/smurf5.png");
                 bot.message = result;
                 return bot.message;
             } else {
                 result = "I'm sorry, I didn't catch what you said. Could you say that again, please?"
                 //set attribute for image
-                imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/5a7b6d3aabc3d121aba71096.png");//botImages[4]
+                imageSrc.setAttribute("src", "pictures/smurf5.png");
                 bot.message = result;
                 return bot.message;
             }
