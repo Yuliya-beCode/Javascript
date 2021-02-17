@@ -27,12 +27,14 @@ i:hover, a:hover {
   text-decoration: underline;
 }
 
-a:visited,
+/* a:visited, */
 a:active,
-i:visited,
+/* i:visited, */
 i:active {
   color: white !important;
 }
+
+a{color:white !important}
 
 .btn-primary {
   background-color: #2376d4;
