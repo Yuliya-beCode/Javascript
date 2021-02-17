@@ -116,7 +116,7 @@
             result = "I receive an empty message. Please try again."
             //set attribute for image
             imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/58b83cfb15d8273a5cab2f99.png");//botImages[3]
-            bot.message = result
+            bot.message = result;
             return bot.message;
         }else {
             count++;
@@ -129,13 +129,13 @@
                 document.getElementById("send").removeEventListener("click", sendMessage);
                 //set attribute for image
                 imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/5a7b6d3aabc3d121aba71096.png");//botImages[4]
-                bot.message = result
+                bot.message = result;
                 return bot.message;
             } else {
                 result = "I'm sorry, I didn't catch what you said. Could you say that again, please?"
                 //set attribute for image
                 imageSrc.setAttribute("src", "https://assets.stickpng.com/thumbs/5a7b6d3aabc3d121aba71096.png");//botImages[4]
-                bot.message = result
+                bot.message = result;
                 return bot.message;
             }
         }
